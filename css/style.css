@@ -12,7 +12,9 @@ src: url('./fonts/Intro_Inline.otf');
 src: url('./fonts/Next_Art.otf');
 }
 
-
+.refresh a:hover{
+  color: #AA3131;
+}
 
 *{
   font-family: 'Poiret One', cursive;;
@@ -105,7 +107,7 @@ margin: -16px 0 0 -16px;}
   color: black;
   font-size: 40px;
   text-align:center;
-  padding-top: 350px;
+  padding-top: 50vh;
 }
 
 
@@ -155,12 +157,14 @@ h1{
   border-bottom: 2px solid black;
   color: black;
 }
+
 h10{
   font-family: 'Next_Art';
   font-size: 24px;
   text-align: center;
   color: white;
 }
+
 .portfolio{
     background-color: black;
 }
