@@ -58,9 +58,6 @@ a:link{
    margin-top: 15px;
    margin-bottom: 15px;
  }
-.row{
-  margin: 0;
-}
 
 #p_prldr{
 position: fixed;
@@ -126,6 +123,7 @@ div.col-md-3:active{
   margin-bottom: 60px;
   font-size: 25px;
   min-height: 800px;
+
 
 }
 
