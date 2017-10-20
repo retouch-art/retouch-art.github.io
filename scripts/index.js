@@ -1,34 +1,16 @@
 $(window).on('load', function () {
     var $preloader = $('#p_prldr'),
         $svg_anm   = $preloader.find('.svg_anm');
-    $preloader.delay(800).fadeOut('slow');
+    $preloader.delay(200).fadeOut('slow');
 });
 
 $(function() {
 $('#container').twentytwenty();
-});
-
-$(function() {
 $('#container1').twentytwenty();
-});
-
-$(function() {
 $('#container2').twentytwenty();
-});
-
-$(function() {
 $('#container3').twentytwenty();
-});
-
-$(function() {
 $('#container4').twentytwenty();
-});
-
-$(function() {
 $('#container5').twentytwenty();
-});
-
-$(function() {
 $('#container6').twentytwenty();
 });
 
