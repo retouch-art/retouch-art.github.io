@@ -1,3 +1,9 @@
+$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $preloader.delay(800).fadeOut('slow');
+});
+
 $(function() {
 $('#container').twentytwenty();
 });
@@ -92,11 +98,7 @@ $(document).ready(function() {
 	});
 });
 
-$(window).on('load', function () {
-    var $preloader = $('#p_prldr'),
-        $svg_anm   = $preloader.find('.svg_anm');
-    $preloader.delay(800).fadeOut('slow');
-});
+
 
 $(function(){
   $.scrollIt();
