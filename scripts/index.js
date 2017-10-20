@@ -1,8 +1,4 @@
-$(window).on('load', function () {
-    var $preloader = $('#p_prldr'),
-        $svg_anm   = $preloader.find('.svg_anm');
-    $preloader.delay(200).fadeOut('slow');
-});
+
 
 $(function() {
 $('#container').twentytwenty();
@@ -12,6 +8,12 @@ $('#container3').twentytwenty();
 $('#container4').twentytwenty();
 $('#container5').twentytwenty();
 $('#container6').twentytwenty();
+});
+
+$(window).on('load', function () {
+    var $preloader = $('#p_prldr'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $preloader.delay(200).fadeOut('slow');
 });
 
 $(document).ready(function() {
