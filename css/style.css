@@ -22,6 +22,10 @@ body{
   overflow-x: hidden;
 }
 
+.row{
+  margin: 0;
+}
+
 .nav{
   list-style-type: none;
   text-align: center;
@@ -94,6 +98,14 @@ margin: -16px 0 0 -16px;}
   height: 100vh;
   background-size: cover;
   margin-top: 30px;
+}
+
+.headerMob{
+  height: 100vh;
+  color: black;
+  font-size: 40px;
+  text-align:center;
+  padding-top: 350px;
 }
 
 
