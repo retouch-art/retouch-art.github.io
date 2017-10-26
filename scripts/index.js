@@ -1,13 +1,7 @@
 
 
 $(function() {
-$('#container').twentytwenty();
-$('#container1').twentytwenty();
-$('#container2').twentytwenty();
-$('#container3').twentytwenty();
-$('#container4').twentytwenty();
-$('#container5').twentytwenty();
-$('#container6').twentytwenty();
+$('#container,#container1,#container2,#container3,#container4,#container5,#container6').twentytwenty();
 });
 
 $(window).on('load', function () {
