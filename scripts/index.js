@@ -5,6 +5,7 @@ $('#container,#container1,#container2,#container3,#container4,#container5,#conta
 	before_label: 'До',
    	after_label: 'После'
 });
+});
 
 $(window).on('load', function () {
     var $preloader = $('#p_prldr'),
