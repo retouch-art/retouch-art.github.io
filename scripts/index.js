@@ -1,7 +1,6 @@
-
-
 $(function() {
 $('#container,#container1,#container2,#container3,#container4,#container5,#container6').twentytwenty();
+});
 
 $(window).on('load', function () {
     var $preloader = $('#p_prldr'),
