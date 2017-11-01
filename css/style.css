@@ -71,8 +71,10 @@ left: 0;
 top: 0;
 right:0;
 bottom:0;
+height: 100%;
+width: 100%;
 background: #111111;
-z-index: 30;}
+z-index: 9999;}
 
 .contpre{
 width: 250px;
@@ -146,18 +148,6 @@ div.col-md-3:active{
   font-family: 'Poiret One', cursive;
   font-weight: bold;
 }
-
-h1{
-  font-family: 'Intro_Inline';
-  font-size: 45px;
-  text-align: center;
-  margin-top: 0;
-  padding-top: 11px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  color: black;
-}
-
 h10{
   font-family: 'Next_Art';
   font-size: 24px;
@@ -215,4 +205,15 @@ a.more{
 
 a.more:hover{
   color: #AA3131;
+}
+
+.h1_portfolio{
+  font-family: 'Intro_Inline';
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 11px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  color: black;
 }
