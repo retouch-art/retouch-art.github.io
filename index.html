@@ -3,28 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Retouch Art</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/index.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
-    <script src="./scripts/jquery.min.js"></script>
-    <script src="./scripts/jquery.event.move.js"></script>
-    <script src="./scripts/jquery.twentytwenty.js"></script>
     <link rel="stylesheet" href="./css/twentytwenty.css">
-    <script src="./scripts/index.js"></script>
-    <script src="./scripts/scroll.js"></script>
     <link rel="stylesheet" media="all" href="./css/animate.css">
-    <script type="text/javascript" src="./scripts/index.js"></script>
-    <script src="./scripts/wow.min.js"></script>
-    <script>new WOW().init();</script>
-
   </head>
-  <body>
-
+  <body onload="showAllImg()">
         <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span></div></div>
-
-
         <div class="nav">
             <ul>
                 <li><a data-scroll-nav="1" href="#">Обо мне</a></li>
@@ -40,7 +30,7 @@
         <div data-scroll-index="1" class="container" style="padding-top:25px;">
         <div  class="aboutMe row" >
             <div class="col-md-8 zoomIn wow " data-wow-duration="1.5s"; style="padding: 0px;">
-                <h1><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Обо мне</h1>
+                <h1 class="h1_portfolio"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Обо мне</h1>
                   <p class="aboutText">&nbsp;&nbsp;Рад приветствовать вас на моем сайте-портфолио. Меня зовут Юрий и я занимаюсь ретушью более 2-х лет. Профессионально работаю с такими программами, как <ins>Adobe Photoshop</ins>, <ins> Adobe Lightroom</ins> и <ins>Adobe illustrator</ins>. Есть большой опыт с такими методами обработки фотографий, как <ins>Dodge & Burn</ins> и <ins>Frequency Separation</ins> (Частотное разложение).<br/> &nbsp;&nbsp; Готов предложить вам услуги предметной, художественной, стоковой и Beauty ретуши, а так же цветокоррекции фото. По всем вышеупомянутым направлениям есть хороший опыт.<br/>&nbsp;&nbsp; Я очень ценю творческий подход, главной целью в обработке фотографии для меня является ее усовершенствование, проработка даже самых мелких деталей для того чтобы сделать и так хороший снимок еще лучше!<br/>&nbsp;&nbsp; Пишите/звоните, буду рад сотрудничеству!</p>
             </div>
 
@@ -58,15 +48,11 @@
 
             <div data-scroll-index="2" class="portfolio">
                 <div class="row" style="padding-top: 50px; padding-bottom:30px;">
-                    <div class="col-md-12" style="  border-top: 2px solid white;
+<div class="col-md-12" style="  border-top: 2px solid white;
                       border-bottom: 2px solid white;">
-                        <h1 style="color:white"><i class="fa fa-camera-retro" aria-hidden="true"></i>&nbsp;Портфолио</h1>
+                        <h1 style="color:white" class="h1_portfolio"><i class="fa fa-camera-retro" aria-hidden="true"></i>&nbsp;Портфолио</h1>
                     </div>
                 </div>
-            <center><h10><b>Если вы впервые на сайте, некоторые фото могут отображаться некорректно, или не отображаться вовсе.
-              <br/><ins><a href="https://retouch-art.github.io/index.html" style="color:white">Обновите, пожалуйста, страницу.</a></ins> <br/>
-                Извините за неудобства</b>
-            </h10></center>
                 <div class="row">
                     <div class="col-md-6">
                         <div id="container">
@@ -132,7 +118,7 @@
                 <div data-scroll-index="3" class="contacts">
                   <div class="row" style="padding-top: 50px; padding-bottom:30px;">
                       <div class="col-md-12">
-                          <h1><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;Контакты</h1>
+                          <h1 class="h1_portfolio"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;Контакты</h1>
                       </div>
                   </div>
                   <div class="row">
@@ -157,6 +143,10 @@
                     &copy; 2017 Copyright,  Retouching & Art
                     </div>
                 </div>
-
+    <script src="./scripts/jquery.twentytwenty.js"></script>
+    <script src="./scripts/jquery.event.move.js"></script>
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/wow.min.js"></script>
+    <script>new WOW().init();</script>
   </body>
 </html>

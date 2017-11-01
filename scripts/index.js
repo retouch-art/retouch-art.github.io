@@ -1,12 +1,14 @@
 
+function showAllImg(){
+	$('#container,#container1,#container2,#container3,#container4,#container5,#container6').twentytwenty();
+}
 $(function() {
-$('#container,#container1,#container2,#container3,#container4,#container5,#container6').twentytwenty();
+showAllImg();
 });
-
 $(window).on('load', function () {
     var $preloader = $('#p_prldr'),
         $svg_anm   = $preloader.find('.svg_anm');
-    $preloader.delay(200).fadeOut('slow');
+    $preloader.delay(500).fadeOut('slow');
 });
 
 $(document).ready(function() {
