@@ -20,6 +20,12 @@ src: url('./fonts/Next_Art.otf');
   font-family: 'Poiret One', cursive;;
   letter-spacing:0.5px;
 }
+
+html, body
+{
+width:100%;
+}
+
 body{
   overflow-x: hidden;
 }
@@ -109,7 +115,7 @@ margin: -16px 0 0 -16px;}
   height: 100vh;
   color: black;
   font-size: 40px;
-  text-align:center;
+  text-align: center;
   padding-top: 50vh;
 }
 
