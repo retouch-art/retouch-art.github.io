@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Retouch Art</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./scripts/jquery.min.js"></script>
@@ -17,8 +17,8 @@
   <body onload="showAllImg()">
         <div id="p_prldr"><div class="contpre"><span class="svg_anm"></span></div></div>
 
-        <div class="nav hidden-xs">
-            <ul>
+        <div class="nav">
+            <ul class="no-list">
                 <li><a data-scroll-nav="1" href="#">Обо мне</a></li>
                 <li><a data-scroll-nav="2" href="#">Портфолио</a></li>
                 <li><a  href="./gallery.html">Больше фото</a></li>
@@ -27,26 +27,23 @@
         </div>
 
         <div  class="header hidden-xs" style="background-image: url(./images/header.jpg)"></div>
-        <div  class="headerMob visible-xs" >ZHUPANOV YURIY<br/> Retouching & Art </div>
-
-        <div data-scroll-index="1" class="container" style="padding-top:25px;">
-        <div  class="aboutMe row" >
+        <div  class="headerMob visible-xs" style="background-image: url(./images/headMob.jpg)"></div>
+        <div   class="aboutMe  row" data-scroll-index="1">
             <div class="col-md-8 zoomIn wow " data-wow-duration="1.5s"; style="padding: 0px;">
                 <h1 class="h1_portfolio"><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Обо мне</h1>
-                  <p class="aboutText">&nbsp;&nbsp;Рад приветствовать вас на моем сайте-портфолио. Меня зовут Юрий и я занимаюсь ретушью более 2-х лет. Профессионально работаю с такими программами, как <ins>Adobe Photoshop</ins>, <ins> Adobe Lightroom</ins> и <ins>Adobe illustrator</ins>. Есть большой опыт с такими методами обработки фотографий, как <ins>Dodge & Burn</ins> и <ins>Frequency Separation</ins> (Частотное разложение).<br/> &nbsp;&nbsp; Готов предложить вам услуги предметной, художественной, стоковой и Beauty ретуши, а так же цветокоррекции фото. По всем вышеупомянутым направлениям есть хороший опыт.<br/>&nbsp;&nbsp; Я очень ценю творческий подход, главной целью в обработке фотографии для меня является ее усовершенствование, проработка даже самых мелких деталей для того чтобы сделать и так хороший снимок еще лучше!<br/>&nbsp;&nbsp; Пишите/звоните, буду рад сотрудничеству!</p>
+                  <div class="aboutText"><p>Рад приветствовать вас на моем сайте-портфолио. Меня зовут Юрий и я занимаюсь ретушью более 2-х лет. Профессионально работаю с такими программами, как <ins>Adobe Photoshop</ins>, <ins> Adobe Lightroom</ins> и <ins>Adobe illustrator</ins>. Есть большой опыт с такими методами обработки фотографий, как <ins>Dodge & Burn</ins> и <ins>Frequency Separation</ins> (Частотное разложение).</p><br/> <p> Готов предложить вам услуги предметной, художественной, стоковой и Beauty ретуши, а так же цветокоррекции фото. По всем вышеупомянутым направлениям есть хороший опыт.</p><br/><p> Я очень ценю творческий подход, главной целью в обработке фотографии для меня является ее усовершенствование, проработка даже самых мелких деталей для того чтобы сделать и так хороший снимок еще лучше!</p><br/> <p>Пишите/звоните, буду рад сотрудничеству!</p></div>
             </div>
 
             <div class="col-md-4" style="text-align:center;">
-                <img src="./images/master.jpg" class="slideInUp wow" data-wow-duration="1.5s";  width="400" height="auto" style=" border: 2.3px black solid; " >
+                <img src="./images/master.jpg" class="slideInUp wow" data-wow-duration="1.5s";  width="100%" height="auto" style=" border: 2px black solid; " >
             </div>
 
             <div class="row">
-                <div class="col-md-12" style="text-align:center; padding-top:60px;">
+                <div class="col-md-12 lines" style="text-align:center;">
                   <img src="./images/line.png">
                 </div>
             </div>
           </div>
-        </div>
 
             <div data-scroll-index="2" class="portfolio">
                 <div class="row" style="padding-top: 50px; padding-bottom:30px;">
@@ -111,14 +108,14 @@
 </div>
 
                     <div class="row">
-                        <div class="col-md-12" style="text-align:center; padding: 26px 15px;">
+                        <div class="col-md-12 lines" style="text-align:center; padding: 10px 15px;">
                               <img src="./images/lineinv.png">
                         </div>
                     </div>
                 </div>
 
                 <div data-scroll-index="3" class="contacts">
-                  <div class="row" style="padding-top: 50px; padding-bottom:30px;">
+                  <div class="row " style="padding-top: 4%; padding-bottom:2%;">
                       <div class="col-md-12">
                           <h1 class="h1_portfolio"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;Контакты</h1>
                       </div>

@@ -46,9 +46,22 @@ body{
   z-index: 10;
 }
 
+@media  (max-width:765px) {
+  div.nav li a {
+    font-size: 55%;
+    padding: 0 0px;
+  }
+}
+
+
+ul.no-list {
+  padding: 0;
+}
+
+
  .nav li{
    display: inline;
-   padding: 0 18px;
+   padding: 0 10px;
    font-size: 15px;
  }
 
@@ -113,10 +126,10 @@ margin: -16px 0 0 -16px;}
 
 .headerMob{
   height: 100vh;
-  color: black;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 7%;
 }
 
 
@@ -142,19 +155,33 @@ div.col-md-3:active{
 }
 
 .aboutMe{
-  margin-top: 60px;
-  margin-bottom: 60px;
-  font-size: 25px;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   min-height: 800px;
-
-
-}
-
-.aboutText{
-  padding: 0 90px;
-  font-family: 'Poiret One', cursive;
+  border: none;
+  text-align: justify;
+  font-size: 25px;
   font-weight: bold;
 }
+
+@media (max-width: 765px) {
+  .aboutMe {font-size: 20px;}
+}
+
+
+.aboutText{
+  padding: 0 5%;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  padding-bottom: 10%;
+}
+
+div.aboutText p{
+  text-indent:10%;
+  margin: 0 0 -4%;
+}
+
 h10{
   font-family: 'Next_Art';
   font-size: 24px;
@@ -199,6 +226,13 @@ div.footer{
   padding-top: 37px;
 }
 
+@media (max-width: 765px) {
+  .more a{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
 .more{
   font-size: 50px;
   text-align: center;
@@ -223,4 +257,10 @@ a.more:hover{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   color: black;
+}
+
+@media (max-width: 765px) {
+  .lines img{
+    width: 100%;
+  }
 }
