@@ -19,21 +19,18 @@ src: url('./fonts/Next_Art.otf');
 *{
   font-family: 'Poiret One', cursive;;
   letter-spacing:0.5px;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 html, body
 {
 width:100%;
+overflow-x: hidden;
 }
 
-body{
-  overflow-x: hidden;
-}
 
-.row{
-  margin: 0;
+div.row.mar{
+  margin-left:  0;
+  margin-right: 0;
 }
 
 .nav{
@@ -265,9 +262,4 @@ a.more:hover{
   .lines img{
     width: 100%;
   }
-}
-
-div{
-  margin-left: 0;
-  margin-right: 0;
 }
