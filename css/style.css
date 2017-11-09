@@ -158,7 +158,7 @@ div.col-md-3:active{
   margin-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  min-height: 800px;
+  max-height: 100%;
   border: none;
   text-align: justify;
   font-size: 25px;
@@ -170,9 +170,9 @@ div.col-md-3:active{
 }
 
 @media (min-width: 1750px) {
-  .aboutMe {font-size: 30px;
-    padding-left: 10%;
-      padding-right: 10%;}
+  .aboutMe {font-size: 25px;
+    padding-left: 13%;
+      padding-right: 13%;}
 }
 
 
@@ -180,7 +180,7 @@ div.col-md-3:active{
   padding: 0 12%;
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  padding-bottom: 10%;
+  padding-bottom: 4%;
 }
 
 div.aboutText p{
