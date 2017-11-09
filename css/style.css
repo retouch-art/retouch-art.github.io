@@ -169,6 +169,10 @@ div.col-md-3:active{
   .aboutMe {font-size: 20px;}
 }
 
+@media (min-width: 1750px) {
+  .aboutMe {font-size: 35px;}
+}
+
 
 .aboutText{
   padding: 0 12%;
