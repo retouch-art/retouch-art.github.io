@@ -170,7 +170,9 @@ div.col-md-3:active{
 }
 
 @media (min-width: 1750px) {
-  .aboutMe {font-size: 35px;}
+  .aboutMe {font-size: 30px;
+    padding-left: 10%;
+      padding-right: 10%;}
 }
 
 
@@ -261,6 +263,10 @@ a.more:hover{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   color: black;
+}
+
+div.lines{
+  padding-bottom: 2%;
 }
 
 @media (max-width: 765px) {
