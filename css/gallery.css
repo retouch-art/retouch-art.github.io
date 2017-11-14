@@ -10,7 +10,7 @@ src: url('./fonts/Intro_Inline.otf');
 .back{
   position: fixed;
   z-index: 101;
-  padding: 1% 2%;
+  margin: 1% 2%;
   opacity: 0.5;
 }
 
