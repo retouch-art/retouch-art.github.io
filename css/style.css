@@ -251,15 +251,18 @@ div.footer{
   font-size: 50px;
   text-align: center;
   padding-top: 2%;
+
 }
 
 a.more{
   font-family: 'Intro_Inline';
   color: white;
+  
 }
 
 a.more:hover{
   color: #AA3131;
+  text-decoration: none;
 }
 
 .h1_portfolio{
