@@ -276,8 +276,38 @@ a.more:hover{
   color: black;
 }
 
+.price{
+  background-color: #ffe051;
+}
+
+.prices{
+border: none;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  border-right: 2px solid black;
+
+}
+
+div.high{
+ text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+} 
+
+div.br {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 10%;
+}
+
 div.lines{
   padding-bottom: 2%;
+}
+
+div.row3{
+  padding: 0;
+  border: 7px solid #ffe051;
 }
 
 @media (max-width: 765px) {
