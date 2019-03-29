@@ -257,7 +257,7 @@ div.footer{
 a.more{
   font-family: 'Intro_Inline';
   color: white;
-  
+
 }
 
 a.more:hover{
@@ -293,12 +293,12 @@ div.high{
  text-align: center;
   font-size: 45px;
   font-weight: bold;
-} 
+}
 
 div.br {
   text-align: left;
   font-size: 30px;
-  margin-left: 10%;
+  margin-left: 3%;
 }
 
 div.lines{
